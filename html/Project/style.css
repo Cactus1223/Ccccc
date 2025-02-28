@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e1c1;
+    color: #4d3319;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.header {
+    background-color: #d9a066;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #4d3319;
+    font-weight: bold;
+}
+
+/* Secciones */
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.title, .games-title, .mission-title {
+    font-size: 2em;
+    color: #8c5b3b;
+}
+
+.description, .game-desc, .mission, .vision {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Juegos */
+.game {
+    background-color: #f7d9a0;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.game-title {
+    font-size: 1.5em;
+    color: #734d26;
+}
+
+/* Footer */
+.footer {
+    background-color: #8c5b3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: #ffd27f;
+    text-decoration: none;
+}
+
